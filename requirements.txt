@@ -1,0 +1,7 @@
+pandas 
+mlflow
+numpy
+scikit-learn
+matplotlib
+psycopg2
+-e .
