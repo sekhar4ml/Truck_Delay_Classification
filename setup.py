@@ -1,15 +1,15 @@
 import setuptools
 
-with open("README.md", "r", encoding="utf-8") as f:
-    long_description = f.read()
+# with open("README.md", "r", encoding="utf-8") as f:
+#     long_description = f.read()
 
 
 __version__ = "0.0.0"
 
-REPO_NAME = "Machine-Learning-Apps"
-AUTHOR_USER_NAME = "sekhar4ml"
-SRC_REPO = "Home-Price-Predection"
-AUTHOR_EMAIL = "mailtosekhar@gmail.com"
+REPO_NAME = "Truck_Delay_Classification"
+AUTHOR_USER_NAME = "RahulReddy20"
+SRC_REPO = "Truck_Delay_Classification"
+AUTHOR_EMAIL = "rahulreddy2036@gmail.com"
 
 
 setuptools.setup(
@@ -17,8 +17,8 @@ setuptools.setup(
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
-    description="A small python package for ml app",
-    long_description=long_description,
+    description="End to end ML implementation of truck delay classification problem",
+    # long_description=long_description,
     long_description_content="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
     project_urls={
