@@ -92,7 +92,7 @@ By accurately predicting truck delays, logistics companies can:
                )
     
   - Insert DataFrame to feature group
-      drivers_fg.insert(drivers_df)
+                    drivers_fg.insert(drivers_df)
     
   - Create and Update Feature Group descriptions to each of the feature groups   
       
