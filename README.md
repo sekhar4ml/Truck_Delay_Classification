@@ -31,23 +31,8 @@ By accurately predicting truck delays, logistics companies can:
     3. Model Deploymnet and Inference
 
 
-
-                      
-
- - Configure statistics for the feature group
-
-              # Configure statistics for the feature group
-                  drivers_fg.statistics_config = {
-                      "enabled": True,        # Enable statistics calculation
-                      "histograms": True,     # Include histograms in the statistics
-                      "correlations": True    # Include correlations in the statistics
-                  }
                   
-                  # Update the statistics configuration for the feature group
-                  drivers_fg.update_statistics_config()
-                  
-                  # Compute statistics for the feature group
-                  drivers_fg.compute_statistics()
+                 
 
 
   
