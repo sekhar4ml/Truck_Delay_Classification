@@ -29,10 +29,3 @@ By accurately predicting truck delays, logistics companies can:
     1. Data Ingestion and Preparation
     2. Machine Learning Model building & hyper perameter tunning 
     3. Model Deploymnet and Inference
-
-
-                  
-                 
-
-
-  
