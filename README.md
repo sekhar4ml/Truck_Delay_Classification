@@ -20,7 +20,9 @@ By accurately predicting truck delays, logistics companies can:
 * seaborn==0.12.2
 * hopsworks==3.2.0
 
-                                               ## **Approach**
+## PROJECT STRUCTURE
+
+   ## **Approach**
 
   This Project develement has been devided into 3 different phases
 
@@ -32,3 +34,18 @@ By accurately predicting truck delays, logistics companies can:
 ## **Data Ingestion and Preparation**
 
   This project is the first part of a three-part series aimed at solving the truck delay prediction problem. In this initial phase, we will utilize PostgreSQL and MYSQL in AWS Redshift to store the data, perform data retrieval, and conduct basic exploratory data analysis (EDA). With Hopsworks feature store, we will build a pipeline that includes data processing feature engineering and prepare the data for model building.
+
+### Data Ingestion Approach
+ 
+* Upload truck delay training data into github repo
+* Create MYSQL or Postgress DB Server ( move to AWS RDS in future)
+* Create Truck_delays database and create tables for each of csv files
+* Develop data_ingestion component to ingest data from github to MYSQL
+
+### Data Exploration & Feature Store Approach
+
+#### Data Fetch from MYSQL DB ####
+
+
+
+  
