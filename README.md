@@ -79,15 +79,18 @@ By accurately predicting truck delays, logistics companies can:
 
   - Create event_time feature
       Example : drivers_df['event_time'] = pd.to_datetime('2024-09-19')
+    
   - Create Feature group
-      drivers_fg = fs.get_or_create_feature_group(
-          name="drivers_details_fg",                # Name of the feature group
-          version=1,                                # Version number
-          description="Drivers data",               # Description of the feature group
-          primary_key=['driver_id'],                # Primary key(s) for the feature group
-          event_time='event_time',                  # Event time column
-          online_enabled=False                      # Online feature store capability
-      )
+    
+               drivers_fg = fs.get_or_create_feature_group(
+                   name="drivers_details_fg",                # Name of the feature group
+                   version=1,                                # Version number
+                   description="Drivers data",               # Description of the feature group
+                   primary_key=['driver_id'],                # Primary key(s) for the feature group
+                   event_time='event_time',                  # Event time column
+                   online_enabled=False                      # Online feature store capability
+               )
+    
   - Insert DataFrame to feature group
       drivers_fg.insert(drivers_df)
     
